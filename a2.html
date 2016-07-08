@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSC309 Assignment 2: JavaScript + Canvas</title>
+        <meta content="Name: Sunny Ng (c4ngsunn) and Salman Fazal (c6fazals)"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+        <script type="text/javascript" src="assets/scripts/script.js" async></script>
+    </head>
+    
+    <!-- credit to http://wallpapercave.com/w/kLRFyFa -->
+    <body background="assets/images/spacebackground.jpg">
+        <main>
+            <header>
+                <h1>
+                    CSC309 Assignment 2: JavaScript + Canvas
+                </h1>
+            </header>
+            
+            <info-bar id="info";>
+                <level id="info_bar_level">
+                    Level: 0
+                </level>
+
+                <score id="info_bar_score">
+                    Score: 0
+                </score>
+
+                <time id="info_bar_timer">
+                    Time Left: 0
+                </time>
+
+                <button id="play" class="playbutton";>
+                    Play
+                </button>
+
+                <button id="pause" class="pausebutton";>
+                    Pause
+                </button>
+                <span class="stretch"> </span>
+            </info-bar>
+            
+            <canvas id="main" width="1000" height="640";>
+                <!-- Place a warning here as a fallback for older browsers -->
+            </canvas>                    
+
+            <game-overlay>
+                <button id="startgame" class="startbutton";>
+                    START
+                </button>
+
+                <button id="nextbutton_id" class="nextbutton";>
+                    NEXT
+                </button>
+
+                <button id="finishbutton_id" class="finishbutton";>
+                    FINISH
+                </button>
+
+                <pause-overlay id="pause_overlay";>
+                    Game Paused
+                </pause-overlay>
+
+                <!-- <button id="nextlevel" class="nextlevelbutton";>NEXT</button> -->
+            </game-overlay>
+
+        </main>
+    </body>
+</html> 
